@@ -1,0 +1,17 @@
+[project]
+name = "ba-thesis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Simon Münker", email = "muenker@uni-trier.de" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+ba-thesis = "ba_thesis:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
