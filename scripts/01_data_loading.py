@@ -36,7 +36,7 @@ print(
     # name renames
     .str.replace(r"^epstein$", "jeffrey epstein")
     .str.replace("ms. maxwell", "ghislaine maxwell")
-    .str.replace(r"^maxwell$", "ghislaine maxwell")
+    # .str.replace(r"^maxwell$", "ghislaine maxwell")
     # ---
     .value_counts(sort=True)
     .write_csv("data/interim/count.people.csv")
