@@ -7,7 +7,10 @@ authors = [
     { name = "Simon Münker", email = "muenker@uni-trier.de" }
 ]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "polars>=1.41.2",
+    "rich>=15.0.0",
+]
 
 [project.scripts]
 ba-thesis = "ba_thesis:main"
